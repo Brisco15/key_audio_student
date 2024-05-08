@@ -1,0 +1,31 @@
+#wrapper{
+     width:70vw;
+     margin:auto;
+}
+
+#container{
+    display:flex;
+    justify-content: space-around ;
+   
+}
+
+#container div{
+    width : 5vw;
+    height : 9vw;
+    /* margin: 0.2rem; */
+    line-height:3vw;
+    text-align:center;
+    /* float:left; */
+    font-weight:800;
+
+}
+.passiv{
+    background:rgba(0,0,0,0.1);
+     border:5px solid rgba(0,0,0,0.1);
+     color:black;
+}
+.aktiv{
+    background:rgb(192, 108, 13);
+     border:5px solid black;
+     color:white;
+}
